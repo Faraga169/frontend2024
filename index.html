@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"  content="My book store">
+    <title>Book store</title>
+    <link rel="stylesheet" href="#">
+    <style>
+    .romantic{width:50%;background-color:rgb(230, 176, 185);color:black;}
+.romantic .book1{background-color:rgb(0, 225, 255);}
+.romantic .book2{background-color:blue;}
+.romantic .book3{background-color:grey;}
+    </style>
+</head>
+<body>
+<h1>Book store</h1>
+<p>Book1</p>
+<p>Book2</p>
+<p>Book3</p>
+<p>Book4</p>
+<!-- unordered list-->
+<ul >
+    <li>ahmed</li>
+    <li>omar</li>
+    <li>mohammed
+    <ul>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+    </ul>
+    </li>
+</ul>
+<!--ordered list-->
+<ol type="I">
+    <li>Ahmed</li>
+    <li>Ali</li>
+    <li>Omar</li>
+    <li>Sara</li>
+</ol>
+
+
+<!-- discription list-->
+<dl>
+    <dt>Programming</dt>
+    <dd>Html</dd>
+    <dd>java</dd>
+    <dd>python</dd>
+</dl>
+<hr>
+<!-- table-->
+<table border="1">
+    <caption>interview</caption>
+    <thead>
+    <tr>
+        <th>First_name</th>
+        <th>Second_name</th>
+        <th>Age</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Ahmed</td>
+        <td>farag</td>
+        <td>20</td>
+    </tr>
+    </tbody>
+    <tfooter>
+        <tr>
+            <td colspan="2">total</td>
+            <td>20</td>
+        </tr>
+    </tfooter>
+</table>
+<hr>
+
+<div class="romantic">
+    <div class="book1">
+        <h2>My Name is Ahmed</h2>
+    <p>I play football</p>
+    </div>
+   <div class="book2">
+        <h2>My Name is Mohammed</h2>
+    <p>I play football</p>
+    </div>
+    <div class="book3">
+        <h2>My Name is Ali</h2>
+    <p>I play football</p>
+    </div>
+</div>
+<hr>
+<div>My name is &lt;p&gt;Ahmed</div>
+<div>My name is &lt;p&gt;Ahmed &copy;</div>
+<hr>
+
+<div class="header">
+    <h1>logo</h1>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact us</li>
+    </ul>
+</div>
+<hr>
+<form action="">
+<div>
+    <label>User_Name:</label>
+    <input type="text" name="username" required placeholder="Enter your name" >
+</div>
+    <br>
+    <div>
+    <label>password:</label>
+    <input type="password"  name="password" required placeholder="Enter your password"  maxlength="10">
+</div>
+    <input type="submit" value="save">
+    <input type="reset">
+    <input type="range" min="0" max="100" >
+    <input type="number" min="5" max="20">
+    <hr>
+    <div>
+        <input id="python" type="radio" name="Programming" value="python">
+        <label for="python">Python</label>
+        <input id="Java" type="radio" name="os" value="windows">
+        <label for="Java">Java</label>
+        <input id="C++" type="radio" name="os" value="windows">
+        <label for="C++">C++</label>
+    </div>
+
+    <div>
+        <input  type="checkbox" name="Programming" value="python">
+        <label >Python</label>
+        <input  type="checkbox" name="os" value="windows">
+        <label for="Java">Java</label>
+        <input  type="checkbox" name="os" value="windows">
+        <label >C++</label>
+    </div>
+    <br>
+    <label for="book">choose book:</label>
+    <select  name="book"id="book">
+        <option value="book1">book1</option>
+         <option value="book2">book2</option>
+         <option value="book3">book3</option>
+         <option value="book4">book4</option>
+    </select>
+    <br>
+    <textarea name="subject" rows="10" cols="10"></textarea>
+</form>
+</body>
+
+</html>
